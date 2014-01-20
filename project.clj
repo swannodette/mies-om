@@ -1,4 +1,4 @@
-(defproject mies-om/lein-template "0.1.2"
+(defproject mies-om/lein-template "0.1.3"
   :description "A minimal Om project template"
   :url "http://github.com/swannodette/mies-om"
   :license {:name "Eclipse Public License"

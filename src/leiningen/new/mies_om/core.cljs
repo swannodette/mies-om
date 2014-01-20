@@ -4,7 +4,7 @@
 
 (enable-console-print!)
 
-(def app-state {:text "Hello world!"})
+(def app-state (atom {:text "Hello world!"}))
 
 (om/root
   app-state
