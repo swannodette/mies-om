@@ -8,7 +8,7 @@
                  [om "0.3.4"]
                  [com.facebook/react "0.8.0.1"]]
 
-  :plugins [[lein-cljsbuild "1.0.1"]]
+  :plugins [[lein-cljsbuild "1.0.2"]]
 
   :source-paths ["src"]
 
