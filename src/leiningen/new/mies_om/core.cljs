@@ -7,7 +7,7 @@
 (def app-state (atom {:text "Hello world!"}))
 
 (om/root
-  app-state
   (fn [app owner]
     (dom/h1 nil (:text app)))
-  (. js/document (getElementById "app")))
+  app-state
+  {:target (. js/document (getElementById "app"))})
