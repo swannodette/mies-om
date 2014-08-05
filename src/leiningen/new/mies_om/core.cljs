@@ -8,6 +8,8 @@
 
 (om/root
   (fn [app owner]
-    (dom/h1 nil (:text app)))
+    (reify om/IRender
+      (render [_]
+        (dom/h1 nil (:text app)))))
   app-state
   {:target (. js/document (getElementById "app"))})
