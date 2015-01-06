@@ -11,13 +11,13 @@
 
   :source-paths ["src" "target/classes"]
 
-  :clean-targets ["out/{{sanitized}}" "{{sanitized}}.js"]
+  :clean-targets ["out/{{sanitized}}" "out/{{sanitized}}.js"]
 
   :cljsbuild {
     :builds [{:id "{{name}}"
               :source-paths ["src"]
               :compiler {
-                :output-to "{{sanitized}}.js"
+                :output-to "out/{{sanitized}}.js"
                 :output-dir "out"
                 :optimizations :none
                 :cache-analysis true
