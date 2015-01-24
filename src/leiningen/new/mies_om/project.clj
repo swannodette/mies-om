@@ -3,9 +3,9 @@
   :url "http://example.com/FIXME"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2657"]
+                 [org.clojure/clojurescript "0.0-2719"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
-                 [om "0.8.0-rc1"]]
+                 [org.omcljs/om "0.8.2"]]
 
   :plugins [[lein-cljsbuild "1.0.4"]]
 
