@@ -19,6 +19,7 @@
               :compiler {
                 :output-to "out/{{sanitized}}.js"
                 :output-dir "out"
+                :main {{name}}.core
                 :optimizations :none
                 :cache-analysis true
                 :source-map true}}]})
