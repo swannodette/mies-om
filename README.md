@@ -1,5 +1,7 @@
 # mies-om
 
+**DEPRECATED**. This template is no longer maintained.
+
 A minimal Om template.
 
 ## Usage
